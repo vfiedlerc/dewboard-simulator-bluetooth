@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color-black: #212121;
+  --color-white: #FAFAFA;
+  --color-primary: #D7B76E;
+  --color-secondary: #3F3E3E; 
+  --color-success: #32B169;
+  --color-error: #DB4F50;
+
+  font-size: 16px;
+
+  @media only screen and (min-width: 1440px) {
+   font-size: 18px
+  }
+  
+}
+
+body{
+  background: var(--color-secondary);
+}
+
+body, input, button, textarea{
+  font-family: 'Montserrat', sans-serif;
+}
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit
+}
+
+
+
+// body {
+//   animation: fadeInAnimation ease 1s;
+//   animation-iteration-count: 1;
+//   animation-fill-mode: forwards;
+// }
+
+// @keyframes fadeInAnimation {
+//   0% {
+//       opacity: 0;
+//   }
+//   100% {
+//       opacity: 1;
+//    }
+// }

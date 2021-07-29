@@ -1,0 +1,75 @@
+.download-banner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+
+  color: var(--color-white);
+
+  >div{
+    &.banner-left{
+      width: 25rem;
+    }
+    h2{
+      font-size: 1.75rem;
+    }
+    p{
+      font-size: 0.75rem;
+    }
+
+    .row{
+      display: flex;
+      width: 18.313rem;
+      height: 2.625rem;
+      gap: 0.813rem;
+      margin-top: 1.25rem;
+    }
+
+    .performance{
+      background-color: var(--color-secondary);
+      width: 18.313rem;
+      height: 7.063rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+
+      div{
+        width: 5.688rem;
+        height: 5.688rem;
+      }
+  
+      .CircularProgressbar-path {
+        stroke: var(--color-success);
+      }
+      .CircularProgressbar-trail {
+        stroke: transparent;
+      }
+      .CircularProgressbar text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        fill: var(--color-success);
+        display: block;
+        box-shadow: 5px 4px 27px 0px rgba(95, 79, 135,0.25);
+    
+      }
+    }
+
+    button{
+      width: 18.313rem;
+      height: 2.625rem;
+      margin-top: 1.25rem;
+      color: var(--color-white);
+      background-color: var(--color-primary);
+
+      border: none;
+      outline: none;
+      border-radius: 9px;
+
+    }
+  }
+}
